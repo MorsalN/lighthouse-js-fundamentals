@@ -12,3 +12,10 @@ sayHello('tba');
 
 
 //EVEN.js example
+const isEven = function (num) {
+  console.log(num % 2 === 0);
+  return num % 2 === 0;
+  //console.log(num % 2 === 0); it won't run hee since it's after the return statment
+}
+
+console.log(isEven(10));
